@@ -14,6 +14,8 @@ add_theme_support( 'builder-full-width-modules' ); // Adds Full Browser Width Ba
 add_theme_support( 'post-formats', array( 'image', 'quote', 'status' ) );
 add_theme_support( 'builder-module-style-before-after-classes' );
 
+woocommerce_content(); //theme support
+
 // Enqueuing and Using Custom Javascript/jQuery
 function custom_load_custom_scripts() {
 	if ( file_exists( get_stylesheet_directory() . '/js/custom_jquery_additions.js' ) )
