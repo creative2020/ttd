@@ -1670,8 +1670,8 @@ display: block !important;
 }
 
 #logo {
-display:block;
-margin-top: 70px !important;
+    display:block;
+    margin-top: 70px !important;
 }
 
 .builder-module-header {
@@ -1990,11 +1990,57 @@ margin-top:.5em;
 	z-index: 22;
 }
 
-
-
-
-
-
+.ngg-gallery-thumbnail img {
+    border:0px !important;
+}
+.ngg-album-compactbox .Thumb {
+    margin: 0px !important;
+    padding: 0px 0 0 0 !important;
+    border: 0px solid black !important;
+}
+.ngg-album-compactbox {
+    margin: 0 !important;
+    padding: 0px !important;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    border: 0px solid gray !important;
+    border-radius: 6px;
+    z-index: 1;
+}
+.ngg-album-compactbox:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    border-bottom: 0px solid gray !important; 
+    border-radius: 6px; 
+    z-index: -1;
+}
+.ngg-album-compactbox:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+    border-bottom: 0px solid gray !important;
+    border-radius: 6px;
+    z-index: -1;
+}
+.ngg-album-compact h4 {
+    font-size: 1.5em !important;
+    font-weight: 200;
+    margin: 0;
+    margin-top: 1.0em;
+    text-align:center;
+    color:#666 !important;
+}
+.ngg-album-compact h4:hover {
+    color:#000000 !important;
+}
 
 
 
