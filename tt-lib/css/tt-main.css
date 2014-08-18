@@ -1,0 +1,42 @@
+.social a {
+        font-size:0.9em;
+}
+.social {
+    background-color: white;
+    float: left;
+    padding: 7px 0px;
+    line-height: 1.1em;
+    color: #ffffff;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+}
+
+.facebook {
+    background-color: #c0e5bc;
+}
+.twitter {
+    background-color: #93E7D4;
+}
+.houzz {
+    background-color: #ee7779;
+}
+.pinterest {
+    background-color:#f89f45;
+}
+.youtube {
+    background-color: #dbb9ec;
+}
+.social a:link{
+    color:#FFFFFF;
+}
+.social:hover{
+    background-color:black !important;
+    opacity:0.8;
+}
+.social a:visited{
+    color:#FFFFFF;
+}

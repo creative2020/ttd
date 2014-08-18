@@ -27,8 +27,8 @@ if( !function_exists("tt_theme_styles") ) {
         // wp_enqueue_style( 'tt-main' );
 
         // child themes
-        // wp_register_style( 'tt-child', get_stylesheet_directory_uri() . '/tt-child.css', array(), '1.0', 'all' );
-        // wp_enqueue_style( 'tt-child' );
+        wp_register_style( 'tt-child', get_stylesheet_directory_uri() . '/tt-lib/css/tt-main.css', get_template_directory_uri() . '/style.css', '1.0', 'all' );
+        wp_enqueue_style( 'tt-child' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'tt_theme_styles' );
