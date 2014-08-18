@@ -18,6 +18,9 @@ add_theme_support( 'builder-module-style-before-after-classes' );
 
 add_theme_support( 'woocommerce' );
 
+// TT Functions
+require_once('tt-lib/tt-functions.php');
+
 // Enqueuing and Using Custom Javascript/jQuery
 function custom_load_custom_scripts() {
 	if ( file_exists( get_stylesheet_directory() . '/js/custom_jquery_additions.js' ) )

@@ -4,7 +4,7 @@ Theme URI: http://2020creative.com
 Description: This is a generated child theme for the Builder-Carter theme. You should activate and modify this theme instead of Builder-Carter. Doing so allows you to modify this child theme while allowing automatic upgrades for Builder-Carter.
 Author: iThemes / 2020 Creative modified
 Author URI: http://2020creative.com/
-Version: 1.1
+Version: 1.2
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: 2020
@@ -1706,144 +1706,48 @@ font-size: 20px;
 font-weight: 700;
 }
 
+.social a {
+        font-size:0.9em;
+}
+.social {
+    background-color: white;
+    float: left;
+    padding: 7px 0px;
+    line-height: 1.1em;
+    color: #ffffff;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+}
 
 .facebook {
-background-color: #c0e5bc;
-float: left;
-padding: 10px 0px 10px 0px;
-line-height: 1.5em;
-width: 295px;
-height: 35px;
-color: #ffffff;
-width: 100%;
-font: 11px font-family: 'HelveticaNeue', 'Helvetica', Arial, sans-serif!important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 2px;
-margin: 0px 0px 10px 0px;
+    background-color: #c0e5bc;
 }
-
-
 .twitter {
-background-color: #93E7D4 !important;
-float: left;
-padding: 10px 0px 10px 0px;
-line-height: 1.5em;
-width: 295px;
-height: 35px;
-color: #ffffff;
-width: 100%;
-font: 11px font-family: 'HelveticaNeue', 'Helvetica', Arial, sans-serif!important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 2px;
-margin: 0px 0px 10px 0px;
+    background-color: #93E7D4;
 }
-
-
-.youtube {
-background-color: #ee7779;
-float: left;
-padding: 10px 0px 10px 0px;
-margin: 0px 0px 10px 0px;
-line-height: 1.5em;
-width: 295px;
-height: 35px;
-color: #ffffff;
-width: 100%;
-font: 11px font-family: 'HelveticaNeue', 'Helvetica', Arial, sans-serif!important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 2px;
-}
-
-.link4 {
-margin: 0px 0px 10px 0px;
-background-color: #f89f45;
-float: left;
-padding: 10px 0px 10px 0px;
-line-height: 1.5em;
-width: 295px;
-height: 35px;
-color: #ffffff;
-width: 100%;
-font: 11px font-family: 'HelveticaNeue', 'Helvetica', Arial, sans-serif!important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 2px;
-}
-
 .houzz {
-background-color: #dbb9ec;
-float: left;
-padding: 10px 0px 10px 0px;
-line-height: 1.5em;
-width: 295px;
-height: 35px;
-color: #ffffff;
-width: 100%;
-font: 11px font-family: 'HelveticaNeue', 'Helvetica', Arial, sans-serif!important;
-text-decoration: none;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 2px;
-
+    background-color: #ee7779;
 }
-.houzz a:link{
- color:#FFFFFF;
+.pinterest {
+    background-color:#f89f45;
 }
-.twitter a:link{
+.youtube {
+    background-color: #dbb9ec;
+}
+.social a:link{
     color:#FFFFFF;
 }
-.facebook a:link{
+.social:hover{
+    background-color:black !important;
+    opacity:0.8;
+}
+.social a:visited{
     color:#FFFFFF;
 }
-.youtube a:link{
-    color:#FFFFFF;
-}
-.link4 a:link{
-    color:#FFFFFF;
-}
-
-
-.twitter a:visited{
-    color:#FFFFFF;
-}
-.facebook a:visited{
-    color:#FFFFFF;
-}
-.youtube a:visited{
-    color:#FFFFFF;
-}
-.link4 a:visited{
-    color:#FFFFFF;
-}
-
-.houzz a:visited{
-color:#FFFFFF;
-}
-
-.twitter a:hover{
-    color:#D3D3D3;
-}
-.facebook a:hover{
-     color:#D3D3D3;
-}
-.youtube a:hover{
-     color:#D3D3D3;
-}
-.link4 a:hover{
-    color:#D3D3D3;
-}
-
-.houzz a:hover{
-    color:#D3D3D3;
-}
-
 
 
 .testimonial-wrap {
